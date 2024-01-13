@@ -13,7 +13,7 @@ One of the ways in which this algorithm can be accelerated is the implementation
 <a href="https://ibb.co/1XmvgTg"><img src="https://i.ibb.co/DMRVJQJ/Minimax.png" alt="Minimax" border="0"></a>
 <br><br>This algorithm is based on a search tree.
 
-
+## Implementation Details
 This implementation consists of 3 basic outcomes - player won, machine won, and tie.
 In our case, the machine is the one doing the minimization and the player is the one doing the maximization.
 Since it is a recursive algorithm, in each iteration the current state of the board is passed to it and it is checked whether one of the basic outcomes has occurred.
@@ -41,3 +41,4 @@ If a move has a worse result than the previous one (leads to a bad outcome or fo
 * <b>DISPLAY OF THE FINAL RESULT</b>
   <br>The current version does not have any indicator that the game is over, nor does it record the results achieved during the game.
 
+Enjoy playing against the Tic-Tac-Toe Bot!
