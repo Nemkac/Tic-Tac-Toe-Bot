@@ -17,10 +17,13 @@ xColor = (232, 65, 24)
 oColor = (252, 197, 49)
 
 
-boardImage = pygame.image.load("C:\\Users\\Nemanja\\Desktop\\Tic-Tac-Toe Bot\\images\\Tabla.PNG")
-Ximg = pygame.transform.scale(pygame.image.load("C:\\Users\\Nemanja\\Desktop\\Tic-Tac-Toe Bot\\images\\x.png"), (200, 200))
-Oimg = pygame.transform.scale(pygame.image.load("C:\\Users\\Nemanja\\Desktop\\Tic-Tac-Toe Bot\\images\\O.png"), (200, 200))
+#boardImage = pygame.image.load("C:\\Users\\Nemanja\\Desktop\\Tic-Tac-Toe Bot\\images\\Tabla.PNG")
+#Ximg = pygame.transform.scale(pygame.image.load("C:\\Users\\Nemanja\\Desktop\\Tic-Tac-Toe Bot\\images\\x.png"), (200, 200))
+#Oimg = pygame.transform.scale(pygame.image.load("C:\\Users\\Nemanja\\Desktop\\Tic-Tac-Toe Bot\\images\\O.png"), (200, 200))
 
+boardImage = pygame.image.load("C:\\Users\\Andrea\\Documents\\GitHub\\Tic-Tac-Toe-Bot\\Tic-Tac-Toe Bot\\images\\Tabla.PNG")
+Ximg = pygame.transform.scale(pygame.image.load("C:\\Users\\Andrea\\Documents\\GitHub\\Tic-Tac-Toe-Bot\\Tic-Tac-Toe Bot\\images\\x.png"), (200, 200))
+Oimg = pygame.transform.scale(pygame.image.load("C:\\Users\\Andrea\\Documents\\GitHub\\Tic-Tac-Toe-Bot\\Tic-Tac-Toe Bot\\images\\O.png"), (200, 200))
 
 class Board():
     def __init__(self):
