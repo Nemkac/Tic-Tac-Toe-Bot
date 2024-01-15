@@ -7,7 +7,7 @@ class Bot:
         self.player = 2
 
     # Minimax without Alpha Beta Pruning
-    """
+    
     def Minimax(self, board, maximizing):
         case = board.Result()
 
@@ -35,7 +35,7 @@ class Bot:
                     move = (fieldX, fieldY)
             
             return maximumEvaluation, move 
-    """
+    
 
     def AlphaBetaMinimax(self, board, maximizing, alpha, beta):
         case = board.Result()
